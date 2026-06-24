@@ -1,16 +1,21 @@
-var num1 = 10;
-var num2 = 20;
+let num1 = 10;
+let num2 = 20;
 
-console.log(num1);
-console.log(num2);
+console.log("il valore della variabile num1 è : " + num1);
+console.log("il valore della variabile num2 è : " + num2);
 
-var stringa = 'hello world';
 
-console.log(stringa);
-var stringa = 'hi planet';
-console.log(stringa);
+let stringa = 'ciao a tutti'
+console.log("il valore della variabile stringa è :" + stringa);
 
-const PIGRECO = 3.14159265359;
-console.log (PIGRECO);
-const PIGRECO = 3.15;
+stringa = 'benvenuti'
+console.log("il valore della variabile stringa è :" + stringa);
 
+
+const pGreco = 3.14;
+
+
+
+pGreco = 100;
+
+console.log("il valore di pGreco è :" + pGreco);
