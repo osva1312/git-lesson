@@ -1,10 +1,10 @@
-let anno_corrente = 2026;
-let anno_di_nascita = 1999;
+let num1 = null;
+let num2 = null;
 
-let eta = anno_corrente - anno_di_nascita;
-console.log(eta)
+let somma = num1 + num2;
+let sostraction = num1 - num2;
+let multiplication = num1 * num2;
+let division = num1 / num2;
+let potence = num1 ** num2;
 
-let anni = 100 - eta;
-console.log(anni)
-
-console.log("Hai 27 anni e ti mancano 73 anni per compierne 100")
+console.log("Con i numeri da te scelti, i risultati delle varie operazioni sono: somma(tot), sosttrazione (tot) ecc ecc")
