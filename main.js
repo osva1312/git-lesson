@@ -1,10 +1,9 @@
-let num1 = null;
-let num2 = null;
+let totale_gatti = 40;
+let gatti_in_fila = 5;
+ 
+let file_resultanti = Math.floor(totale_gatti / gatti_in_fila);
+let gatti_avanzati = totale_gatti % gatti_in_fila;
 
-let somma = num1 + num2;
-let sostraction = num1 - num2;
-let multiplication = num1 * num2;
-let division = num1 / num2;
-let potence = num1 ** num2;
-
-console.log("Con i numeri da te scelti, i risultati delle varie operazioni sono: somma(tot), sosttrazione (tot) ecc ecc")
+let gatti_mancanti = gatti_avanzati === 0;
+ 
+console.log("Ci sono 8 file di gatti e ne mancano 0 per una nuova fila, con un avanzo di 0");
